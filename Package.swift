@@ -8,7 +8,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/PureSwift/java_util.git", .branch("master")),
-      //  .package(url: "https://github.com/PureSwift/JNI.git", .branch("master")),
+        .package(url: "https://github.com/lizarge/JNI.git", .branch("master")),
     ],
     targets: [
         .target(
